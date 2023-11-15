@@ -14,7 +14,10 @@ public class ContoDeposito extends Conto {
 	@Override
 	public void generaMovimento(double importo, String tipo, LocalDate data) {
 		if(tipo.equals("P") && importo > limite) {
-			System.out.println("Impossibile prelevare più di 1.000 euro in una sola volta");
+//			System.out.println("Impossibile prelevare più di 1.000 euro in una sola volta");
+
+			logger.warn("Impossibile prelevare più di 1.000 euro in una sola volta");
+
 			super.generaMovimento(1000, tipo, data);
 		} else {
 			super.generaMovimento(importo, tipo, data);

@@ -1,0 +1,74 @@
+[WARN ] 15-11-2023 12:44:16.889 [main] Conto - Impossibile prelevare più di 1.000 euro in una sola volta
+[WARN ] 15-11-2023 12:44:16.893 [main] Conto - Impossibile prelevare più di 1.000 euro in una sola volta
+[INFO ] 15-11-2023 12:44:17.112 [main] Conto - it.model.ContoDeposito - Interessi anno: 2021, Tasso annuo: 0.10000000000000002, Tasso giornaliero: 2.7397260273972606E-4
+[INFO ] 15-11-2023 12:44:17.117 [main] Conto - Date: 2021-10-01 - 2021-10-01 --> Numero giorni: 0
+[INFO ] 15-11-2023 12:44:17.117 [main] Conto - Interessi del periodo: 0,00
+[INFO ] 15-11-2023 12:44:17.118 [main] Conto - Date: 2021-10-01 - 2021-10-18 --> Numero giorni: 17
+[INFO ] 15-11-2023 12:44:17.119 [main] Conto - Interessi del periodo: 0,00
+[INFO ] 15-11-2023 12:44:17.119 [main] Conto - Date: 2021-10-18 - 2021-11-11 --> Numero giorni: 24
+[INFO ] 15-11-2023 12:44:17.120 [main] Conto - Interessi del periodo: 0,79
+[INFO ] 15-11-2023 12:44:17.120 [main] Conto - Date: 2021-11-11 - 2021-11-25 --> Numero giorni: 14
+[INFO ] 15-11-2023 12:44:17.121 [main] Conto - Interessi del periodo: -3,37
+[INFO ] 15-11-2023 12:44:17.151 [main] Conto - it.model.ContoInvestimento - Interessi anno: 2021, Tasso annuo: 0.06999999999999999, Tasso giornaliero: 1.917808219178082E-4
+[INFO ] 15-11-2023 12:44:17.151 [main] Conto - Date: 2021-07-02 - 2021-07-02 --> Numero giorni: 0
+[INFO ] 15-11-2023 12:44:17.152 [main] Conto - Interessi del periodo: 0,00
+[INFO ] 15-11-2023 12:44:17.152 [main] Conto - Date: 2021-07-02 - 2021-08-04 --> Numero giorni: 33
+[INFO ] 15-11-2023 12:44:17.152 [main] Conto - Interessi del periodo: 3,33
+[INFO ] 15-11-2023 12:44:17.153 [main] Conto - Date: 2021-08-04 - 2021-10-30 --> Numero giorni: 87
+[INFO ] 15-11-2023 12:44:17.153 [main] Conto - Interessi del periodo: 85,27
+[INFO ] 15-11-2023 12:44:17.153 [main] Conto - Date: 2021-10-30 - 2021-11-28 --> Numero giorni: 29
+[INFO ] 15-11-2023 12:44:17.153 [main] Conto - Interessi del periodo: 1,14
+[INFO ] 15-11-2023 12:44:17.164 [main] Conto - it.model.ContoCorrente - Interessi anno: 2021, Tasso annuo: 0.07, Tasso giornaliero: 1.9178082191780824E-4
+[INFO ] 15-11-2023 12:44:17.164 [main] Conto - Date: 2021-01-07 - 2021-01-07 --> Numero giorni: 0
+[INFO ] 15-11-2023 12:44:17.166 [main] Conto - Interessi del periodo: 0,00
+[INFO ] 15-11-2023 12:44:17.166 [main] Conto - Date: 2021-01-07 - 2021-09-27 --> Numero giorni: 263
+[INFO ] 15-11-2023 12:44:17.167 [main] Conto - Interessi del periodo: 162,21
+[INFO ] 15-11-2023 12:44:17.168 [main] Conto - Date: 2021-09-27 - 2021-11-19 --> Numero giorni: 53
+[INFO ] 15-11-2023 12:44:17.168 [main] Conto - Interessi del periodo: 83,49
+[INFO ] 15-11-2023 12:44:17.169 [main] Conto - Date: 2021-11-19 - 2021-11-29 --> Numero giorni: 10
+[INFO ] 15-11-2023 12:44:17.169 [main] Conto - Interessi del periodo: 21,39
+[WARN ] 15-11-2023 12:44:17.172 [main] Conto - Impossibile prelevare più di 1.000 euro in una sola volta
+[INFO ] 15-11-2023 12:44:17.179 [main] Conto - it.model.ContoDeposito - Interessi anno: 2022, Tasso annuo: 0.10000000000000002, Tasso giornaliero: 2.7397260273972606E-4
+[INFO ] 15-11-2023 12:44:17.181 [main] Conto - Date: 2022-01-01 - 2022-01-22 --> Numero giorni: 21
+[INFO ] 15-11-2023 12:44:17.183 [main] Conto - Interessi del periodo: 10,55
+[INFO ] 15-11-2023 12:44:17.183 [main] Conto - Date: 2022-01-22 - 2022-10-18 --> Numero giorni: 269
+[INFO ] 15-11-2023 12:44:17.184 [main] Conto - Interessi del periodo: 62,17
+[INFO ] 15-11-2023 12:44:17.184 [main] Conto - Date: 2022-10-18 - 2022-11-06 --> Numero giorni: 19
+[INFO ] 15-11-2023 12:44:17.185 [main] Conto - Interessi del periodo: 0,30
+[INFO ] 15-11-2023 12:44:17.192 [main] Conto - it.model.ContoInvestimento - Interessi anno: 2022, Tasso annuo: 0.21, Tasso giornaliero: 5.753424657534246E-4
+[INFO ] 15-11-2023 12:44:17.192 [main] Conto - Date: 2022-01-01 - 2022-11-17 --> Numero giorni: 320
+[INFO ] 15-11-2023 12:44:17.192 [main] Conto - Interessi del periodo: -133,55
+[INFO ] 15-11-2023 12:44:17.193 [main] Conto - Date: 2022-11-17 - 2022-11-23 --> Numero giorni: 6
+[INFO ] 15-11-2023 12:44:17.193 [main] Conto - Interessi del periodo: -12,74
+[INFO ] 15-11-2023 12:44:17.194 [main] Conto - Date: 2022-11-23 - 2022-11-28 --> Numero giorni: 5
+[INFO ] 15-11-2023 12:44:17.194 [main] Conto - Interessi del periodo: 1,90
+[INFO ] 15-11-2023 12:44:17.202 [main] Conto - it.model.ContoCorrente - Interessi anno: 2022, Tasso annuo: 0.07, Tasso giornaliero: 1.9178082191780824E-4
+[INFO ] 15-11-2023 12:44:17.203 [main] Conto - Date: 2022-01-01 - 2022-03-04 --> Numero giorni: 62
+[INFO ] 15-11-2023 12:44:17.203 [main] Conto - Interessi del periodo: 121,51
+[INFO ] 15-11-2023 12:44:17.203 [main] Conto - Date: 2022-03-04 - 2022-11-11 --> Numero giorni: 252
+[INFO ] 15-11-2023 12:44:17.203 [main] Conto - Interessi del periodo: 525,52
+[INFO ] 15-11-2023 12:44:17.204 [main] Conto - Date: 2022-11-11 - 2022-11-22 --> Numero giorni: 11
+[INFO ] 15-11-2023 12:44:17.204 [main] Conto - Interessi del periodo: 15,19
+[WARN ] 15-11-2023 12:44:17.206 [main] Conto - Impossibile prelevare più di 1.000 euro in una sola volta
+[WARN ] 15-11-2023 12:44:17.207 [main] Conto - Impossibile prelevare più di 1.000 euro in una sola volta
+[INFO ] 15-11-2023 12:44:17.219 [main] Conto - it.model.ContoDeposito - Interessi anno: 2023, Tasso annuo: 0.10000000000000002, Tasso giornaliero: 2.7397260273972606E-4
+[INFO ] 15-11-2023 12:44:17.219 [main] Conto - Date: 2023-01-01 - 2023-06-19 --> Numero giorni: 169
+[INFO ] 15-11-2023 12:44:17.219 [main] Conto - Interessi del periodo: -44,51
+[INFO ] 15-11-2023 12:44:17.219 [main] Conto - Date: 2023-06-19 - 2023-10-03 --> Numero giorni: 106
+[INFO ] 15-11-2023 12:44:17.220 [main] Conto - Interessi del periodo: 27,39
+[INFO ] 15-11-2023 12:44:17.220 [main] Conto - Date: 2023-10-03 - 2023-10-12 --> Numero giorni: 9
+[INFO ] 15-11-2023 12:44:17.220 [main] Conto - Interessi del periodo: -0,07
+[INFO ] 15-11-2023 12:44:17.231 [main] Conto - it.model.ContoInvestimento - Interessi anno: 2023, Tasso annuo: 0.47, Tasso giornaliero: 0.0012876712328767123
+[INFO ] 15-11-2023 12:44:17.233 [main] Conto - Date: 2023-01-01 - 2023-10-21 --> Numero giorni: 293
+[INFO ] 15-11-2023 12:44:17.233 [main] Conto - Interessi del periodo: -2210,09
+[INFO ] 15-11-2023 12:44:17.236 [main] Conto - Date: 2023-10-21 - 2023-11-12 --> Numero giorni: 22
+[INFO ] 15-11-2023 12:44:17.238 [main] Conto - Interessi del periodo: -321,98
+[INFO ] 15-11-2023 12:44:17.239 [main] Conto - Date: 2023-11-12 - 2023-11-14 --> Numero giorni: 2
+[INFO ] 15-11-2023 12:44:17.240 [main] Conto - Interessi del periodo: -34,25
+[INFO ] 15-11-2023 12:44:17.252 [main] Conto - it.model.ContoCorrente - Interessi anno: 2023, Tasso annuo: 0.07, Tasso giornaliero: 1.9178082191780824E-4
+[INFO ] 15-11-2023 12:44:17.253 [main] Conto - Date: 2023-01-01 - 2023-04-01 --> Numero giorni: 90
+[INFO ] 15-11-2023 12:44:17.253 [main] Conto - Interessi del periodo: 184,26
+[INFO ] 15-11-2023 12:44:17.253 [main] Conto - Date: 2023-04-01 - 2023-07-17 --> Numero giorni: 107
+[INFO ] 15-11-2023 12:44:17.253 [main] Conto - Interessi del periodo: 172,08
+[INFO ] 15-11-2023 12:44:17.257 [main] Conto - Date: 2023-07-17 - 2023-11-04 --> Numero giorni: 110
+[INFO ] 15-11-2023 12:44:17.257 [main] Conto - Interessi del periodo: 126,02

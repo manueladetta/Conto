@@ -5,8 +5,13 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.itextpdf.text.Chunk;
 import com.itextpdf.text.Document;
@@ -25,6 +30,8 @@ public abstract class Conto {
     private static final String DIRECTORY_PATH = "EstrattoConto"; // Nome della sottocartella
 
 	private static final double RITENUTA = 0.26;
+	
+	protected static final Logger logger = LogManager.getLogger("Conto");
 
 	protected String titolare;
 	protected LocalDate dataApertura;
@@ -98,12 +105,12 @@ public abstract class Conto {
     	}    	
     	movimento.setSaldoDopoOperazione(this.saldo);
     	this.operazioni.add(movimento);
-//    	Collections.sort(operazioni, new Comparator<Movimento>() {
-//            public int compare(Movimento m1, Movimento m2) {
-//                return m1.getData().compareTo(m2.getData());
-//            }
-//        });
-//    	this.setOperazioni(operazioni);
+    	Collections.sort(operazioni, new Comparator<Movimento>() {
+            public int compare(Movimento m1, Movimento m2) {
+                return m1.getData().compareTo(m2.getData());
+            }
+        });
+    	this.setOperazioni(operazioni);
 	}
 	
 	// Metodo per il calcolo degli interessi per l'anno passato come parametro
@@ -127,6 +134,7 @@ public abstract class Conto {
 
 	// Metodo di supporto che calcola l'ammontare degli interessi in un determinato anno
 	public double calcolaInteressi(int anno, double tassoInteresse) {
+		logger.info(this.getClass().getCanonicalName() + " - Interessi anno: " + anno + ", Tasso annuo: " + (tassoInteresse*365) + ", Tasso giornaliero: " + tassoInteresse);
 		 double interessi = 0, saldoPostOperazione = saldo;
 			int giorni = 0;
 			LocalDate start;
@@ -139,12 +147,17 @@ public abstract class Conto {
 				if(m.getData().getYear() == anno) {
 					giorni = Utils.calcolaNumeroGiorni(start, m.getData());
 //					interessi = interessi + (m.getSaldoDopoOperazione() * tassoInteresse * giorni);
+					
+					logger.info("Date: " + start.toString() + " - " + m.getData().toString() + " --> Numero giorni: " + giorni);
+					logger.info("Interessi del periodo: " + Utils.formattaCosto((m.getSaldoDopoOperazione() + interessi) * tassoInteresse * giorni));
+					
 					interessi = interessi + ((m.getSaldoDopoOperazione() + interessi) * tassoInteresse * giorni);
 //					if(interessi > 0) {
 //						this.saldo += interessi;
 //					} else if(getClass().getCanonicalName() == "it.model.ContoInvestimento") {
 //						this.saldo -= interessi;
 //					}
+					
 					start = m.getData(); // aggiorno la data di riferimento per il calcolo degli interessi
 					saldoPostOperazione = m.getSaldoDopoOperazione() + interessi;
 				}
